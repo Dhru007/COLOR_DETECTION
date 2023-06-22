@@ -1,4 +1,5 @@
-<img width="524" alt="image" src="https://github.com/Dhru007/COLOR_DETECTION/assets/103928261/b5878602-a863-4b34-9aba-44cee70ef856"><img width="524" alt="image" src="https://github.com/Dhru007/COLOR_DETECTION/assets/103928261/25efd605-1587-4e8d-9662-1fa3b851fcda"># COLOR_DETECTION
+<img width="524" alt="image" src="https://github.com/Dhru007/COLOR_DETECTION/assets/103928261/b5878602-a863-4b34-9aba-44cee70ef856">
+# COLOR_DETECTION
 
 This Python script allows you to detect colors from an image by clicking on pixels and displaying the color information. The script uses a predefined color dataset to match the RGB values of the clicked pixel and determine the corresponding color name.
 
@@ -31,11 +32,10 @@ The script uses a dataset (`colors.csv`) containing a list of color names and th
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
 Feel free to contribute by reporting issues, suggesting improvements, or submitting pull requests.
 
 # Color-Detection-System-
+
 Color Detection System using Machine Learning Techniques- 
 The system is based on supervised learning to determine the colour of objects in the image. It will detect the colour of an object from 
 the given image using Convolutional Neural Network (CNN). The CNN will be trained on an image database containing known coloured objects. 
