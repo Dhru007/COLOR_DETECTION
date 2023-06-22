@@ -1,4 +1,3 @@
-<img width="524" alt="image" src="https://github.com/Dhru007/COLOR_DETECTION/assets/103928261/b5878602-a863-4b34-9aba-44cee70ef856">
 # COLOR_DETECTION
 
 This Python script allows you to detect colors from an image by clicking on pixels and displaying the color information. The script uses a predefined color dataset to match the RGB values of the clicked pixel and determine the corresponding color name.
@@ -28,7 +27,8 @@ The script uses a dataset (`colors.csv`) containing a list of color names and th
 
 ## Sample Output
 
-![Sample Output](output.png)
+<img width="524" alt="image" src="https://github.com/Dhru007/COLOR_DETECTION/assets/103928261/b5878602-a863-4b34-9aba-44cee70ef856">
+
 
 ## License
 
