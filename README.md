@@ -1,24 +1,32 @@
 # COLOR_DETECTION
 
-This Python script allows you to detect colors from an image by clicking on pixels and displaying the color information. The script uses a predefined color dataset to match the RGB values of the clicked pixel and determine the corresponding color name.
+This repository hosts the Color Detection App, a web-based tool for identifying colors in an uploaded image. Built using Python and Streamlit, the app provides a user-friendly interface for exploring RGB values, color names, and corresponding hexadecimal codes by selecting specific points in an image.
 
-## Requirements
+## Technology Stack
 
-- Python 3.11.3
-- OpenCV (`pip install opencv-python`)
-- NumPy (`pip install numpy`)
-- Pandas (`pip install pandas`)
+- Python Libraries:
+  - pandas: For handling CSV files.
+  - numpy: For image processing.
+  - streamlit: For creating the web interface.
+  - Pillow: For handling image uploads.
+  - plotly.express: For interactive image rendering.
+
+## Features
+
+Upload Images: Supports image formats like .jpg, .jpeg, and .png.
+Color Detection: Identifies the closest color name based on RGB values.
+Hex Code Display: Shows the hex code of the detected color.
+Interactive Visualization: Uses Plotly for rendering the uploaded image interactively.
+User Inputs: Allows users to provide coordinates to detect specific colors in the image.
+Live Color Preview: Displays a visual representation of the detected color.
 
 ## Usage
 
-1. Clone the repository or download the Python script to your local machine.
-2. Place an image file in the same directory as the script.
-3. Run the script using the command: `python color_detection.py`.
-4. Enter the path to the image when prompted.
-5. A window will open displaying the image.
-6. Double-click on any pixel in the image to detect the color.
-7. The detected color, along with its RGB values, will be displayed on the image.
-8. The color name will be shown in white if the color is dark, and in black if the color is light.
+1. Launch the App: Open the app in your browser after running the Streamlit command.
+2. Upload an Image: Use the Upload Image button to load your image.
+3. Provide Coordinates: Enter the X and Y coordinates to select a pixel from the image.
+4. Detect Color: Click the Detect Color button to view the detected color name, RGB values, and hex code.
+5. Visual Feedback: The app displays a live color preview for better visualization.
 
 ## Dataset
 
@@ -27,20 +35,26 @@ The script uses a dataset (`colors.csv`) containing a list of color names and th
 
 ## Sample Output
 
-<img width="524" alt="image" src="https://github.com/Dhru007/COLOR_DETECTION/assets/103928261/b5878602-a863-4b34-9aba-44cee70ef856">
+<img width="524" alt="image" src="https://github.com/Dhru007/COLOR_DETECTION/blob/main/Color-Detection-System-/img1.png">
+<img width="524" alt="image" src="https://github.com/Dhru007/COLOR_DETECTION/blob/main/Color-Detection-System-/img2.png">
 
+
+## Contribution
+1. Fork the repository.
+2. Create a new feature branch:
+  - git checkout -b feature-name
+3. Commit your changes:
+  - git commit -m "Add feature description"
+4. Push to the branch:
+  - git push origin feature-name
+5. Open a pull request.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
-Feel free to contribute by reporting issues, suggesting improvements, or submitting pull requests.
 
-# Color-Detection-System-
-Color Detection System using Machine Learning Techniques- 
-The system is based on supervised learning to determine the colour of objects in the image. It will detect the colour of an object from 
-the given image using Convolutional Neural Network (CNN). The CNN will be trained on an image database containing known coloured objects. 
-The system will show the colour of the object in the image with confidence in the prediction.The system can be used in many applications 
-such as fruit and vegetable sorting, crop tracking and medical imaging.
+## Feel free to contribute by reporting issues, suggesting improvements, or submitting pull requests.
+
 
 
